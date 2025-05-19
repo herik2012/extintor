@@ -1,0 +1,229 @@
+/* Estilos personalizados para o tema de jogos */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #111827; /* Cor de fundo escura */
+    color: #f9fafb; /* Cor do texto clara */
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.heading-primary {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #6366f1; /* Roxo vibrante */
+    text-align: center;
+    margin-bottom: 1rem;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+}
+.heading-secondary {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #d1d5db; /* Cinzento claro */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #374151; /* Linha divisória escura */
+    padding-bottom: 0.5rem;
+}
+.quote-card {
+    background-color: #1f2937; /* Cartão ligeiramente mais claro */
+    border-radius: 0.75rem; /* Cantos arredondados */
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra subtil */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.quote-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+.quote-text {
+    font-style: italic;
+    color: #e5e7eb; /* Texto da citação mais claro */
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+.quote-source {
+    font-weight: 600;
+    color: #a855f7; /* Roxo mais claro */
+    text-align: right;
+}
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+.nav-link {
+    color: #cbd5e0; /* Cor do link */
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem; /* Cantos arredondados */
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+.nav-link:hover {
+    color: #f9fafb; /* Cor do texto no hover */
+    background-color: #4c1d95; /* Roxo mais escuro no hover */
+}
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    font-weight: 600;
+    color: #f9fafb;
+    background-color: #8b5cf6; /* Roxo */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+.button:hover {
+    background-color: #6d28d9; /* Roxo mais escuro no hover */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+.button-icon {
+    margin-right: 0.5rem;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+.section-content {
+    margin-bottom: 2rem;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+.meme-creator {
+    background-color: #1f2937;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.meme-creator h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #d1d5db;
+    margin-bottom: 1rem;
+}
+.meme-input {
+    padding: 0.75rem;
+    border-radius: 0.375rem;
+    border: 1px solid #4b5563;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: #2d3748;
+    color: #f9fafb;
+    font-family: 'Inter', sans-serif;
+}
+.meme-input:focus {
+    outline: none;
+    border-color: #8b5cf6;
+    box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.3);
+}
+.meme-canvas {
+    border: 2px dashed #6b7280;
+    border-radius: 0.75rem;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+.social-share {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.social-icon {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: #4b5563;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.social-icon:hover {
+    background-color: #8b5cf6;
+    transform: scale(1.1);
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.gap-2 {
+  gap: 0.5rem;
+}
+.rounded-md {
+  border-radius: 0.375rem;
+}
+.bg-purple-500 {
+  background-color: #8b5cf6;
+}
+.text-white {
+  color: #fff;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.hover\:bg-purple-700:hover {
+  background-color: #6d28d9;
+}
+.w-full {
+  width: 100%;
+}
+.border-gray-300 {
+  border-color: #d1d5db;
+}
+.focus\:ring-purple-500:focus {
+  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.3);
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.text-center {
+  text-align: center;
+}
+.text-gray-600 {
+  color: #6b7280;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.mt-6 {
+  margin-top: 1.5rem;
+}
